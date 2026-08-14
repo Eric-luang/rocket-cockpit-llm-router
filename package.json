@@ -1,0 +1,37 @@
+{
+  "name": "rocket-cockpit-llm-router",
+  "version": "0.1.0",
+  "description": "Unified LLM client for 9+ providers (OpenAI, Anthropic, Zhipu, MiniMax, OpenRouter, Qwen, etc.) with auto-fallback. Inspired by TradingAgents architecture.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "echo 'no build needed'"
+  },
+  "keywords": [
+    "llm",
+    "router",
+    "openai",
+    "anthropic",
+    "zhipu",
+    "minimax",
+    "openrouter",
+    "fallback",
+    "multi-provider",
+    "tradingagents"
+  ],
+  "author": "RocketCockpit Team <team@rocket-cockpit.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocket-cockpit/rocket-cockpit-llm-router.git"
+  },
+  "homepage": "https://github.com/rocket-cockpit/rocket-cockpit-llm-router",
+  "bugs": {
+    "url": "https://github.com/rocket-cockpit/rocket-cockpit-llm-router/issues"
+  }
+}
